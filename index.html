@@ -10,40 +10,39 @@
 </head>
 
 <body>
-    <!-- New div created to wrap the content-->
     <div class="page">
-        <section class="header">
-            <section class="nav">
+        <div class="header">
+            <div class="nav">
                 <img src="./images/logo.png" alt="Practicum Library Logo" class="logo" />
-                <section class="nav-links">
+                <div class="nav-links">
                     <a class="nav__link" href="#staff-picks">Staff picks</a>
                     <a class="nav__link" href="#events">Events</a>
                     <a class="nav__link" href="#become-a-member">Become a member</a>
                     <a class="nav__link" href="#about">About</a>
                     <a class="nav__link" href="#footer">Contacts</a>
-                </section>
-            </section>
+                </div>
+            </div>
             <h1 class="header__title">Welcome to the Practicum Library</h1>
             <p class="header__description">
                 We're pleased to open our library doors to everyone! Come and expand your development knowledge, or just use this lovely spot to work or study. This is a cool place for cool students!
             </p>
             <img src="./images/inside_the_library.png" alt="Illustration 'Inside the library'" class="header__image" />
-            <section class="header__footer">
+            <div class="header__footer">
                 <a class="header__link" href="#about">About the library &darr;</a>
-                <section class="header__address">
+                <div class="header__address">
                     200 Success Avenue, The Town of Practicum
-                </section>
-            </section>
-        </section>
+                </div>
+            </div>
+        </div>
 
-        <section class="content">
+        <div class="content">
             <section class="staff" id="staff-picks">
                 <h2 class="staff__title">Staff picks</h2>
                 <h3 class="staff__subtitle">That our readers love</h3>
                 <!-- Wrap those cards! -->
                 <div class="staff__cards">
-                    <section class="card">
-                        <section class="card__content">
+                    <div class="card">
+                        <div class="card__content">
                             <h4 class="card__title">Introduction to Algorithms</h4>
                             <p class="card__text">
                                 The name of this book is self-explanatory; it's a proper introduction to algorithms! Introduction to Algorithms, or CLRS, in reference to the authors' last names, goes in-depth and covers a range of algorithms across several self-contained chapters.
@@ -51,10 +50,10 @@
                             <p class="card__footer">
                                 Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
                             </p>
-                        </section>
-                    </section>
+                        </div>
+                    </div>
 
-                    <section class="card">
+                    <div class="card">
                         <section class="card__content">
                             <h4 class="card__title">
                                 The Structure and Interpretation of Computer Programs (SICP)
@@ -66,9 +65,9 @@
                                 Harold Abelson, Gerald Jay Sussman, Julie Sussman
                             </p>
                         </section>
-                    </section>
+                    </div>
 
-                    <section class="card">
+                    <div class="card">
                         <section class="card__content">
                             <h4 class="card__title">
                                 The Clean Coder: A Code of Conduct for Professional Programmers
@@ -79,9 +78,9 @@
                             </p>
                             <p class="card__footer">Steve McConnell</p>
                         </section>
-                    </section>
+                    </div>
 
-                    <section class="card">
+                    <div class="card">
                         <section class="card__content">
                             <h4 class="card__title">
                                 Code Complete: A Practical Handbook of Software Construction
@@ -92,149 +91,149 @@
                             </p>
                             <p class="card__footer">Steve McConnell</p>
                         </section>
+                    </div>
+                </div>
+
+
+                <div class="events" id="events">
+                    <section class="events__content">
+                        <h3 class="events__heading">Upcoming events:</h3>
+                        <h2 class="events__title">
+                            In honor of Joan Feynman: Women in astrophysics
+                        </h2>
+                        <div class="event-info events__info-section">
+                            <div class="event-info__item">
+                                <div class="event-info__icon event-info__icon_calendar"></div>
+                                <p class="event-info__text">Mon, January 12</p>
+                            </div>
+                            <div class="event-info__item">
+                                <div class="event-info__icon event-info__icon_pin"></div>
+                                <p class="event-info__text">
+                                    Practicum Library Conference Hall & Online
+                                </p>
+                            </div>
+                        </div>
+                        <p class="events__description">
+                            At this event, which celebrates the library's namesake, our guest lecturer will take us on a journey exploring some of the most prominent female researchers in the world of space science. It's easy to buy into the misconception that this field was mostly
+                            dominated by men, but our lecture aims to change that notion and prove that this hasn't been the case since at least the 18th century.
+                        </p>
+                        <a href="#events" class="events__more">More events &rarr;</a>
                     </section>
-            </section>
+                    <div class="events__cover">
+                        <img src="./images/cafe.png" alt="cafe image" class="events__image">
 
+                        <div class="person person_name_feynman">
+                            <p class="person__caption">Joan Feynman</p>
+                            <img src="./images/person_feynman.png" alt="joan Feynman picture" class="person__image person__image_size_l ">
+                        </div>
+                        <div class="person person_name_burbidge">
+                            <p class="person__caption">Margaret Burbidge</p>
+                            <img src="./images/person_burbidge.png" alt="Margaret Burbidge picture" class="person__image person__image_size_m ">
+                        </div>
+                        <div class="person person_name_tarter">
+                            <p class="person__caption">Jill Tarter</p>
+                            <img src="./images/person_tarter.png" alt="Jill Tarter picture" class="person__image person__image_size_m ">
 
-            <section class="events" id="events">
-                <section class="events__content">
-                    <h3 class="events__heading">Upcoming events:</h3>
-                    <h2 class="events__title">
-                        In honor of Joan Feynman: Women in astrophysics
-                    </h2>
-                    <section class="event-info events__info-section">
-                        <section class="event-info__item">
-                            <section class="event-info__icon event-info__icon_calendar"></section>
-                            <p class="event-info__text">Mon, January 12</p>
-                        </section>
-                        <section class="event-info__item">
-                            <section class="event-info__icon event-info__icon_pin"></section>
-                            <p class="event-info__text">
-                                Practicum Library Conference Hall & Online
+                        </div>
+                        <div class="person person_name_cannon">
+                            <img src="./images/person_cannon.png" alt="Annie Jump Cannon" class="person__image person__image_size_m ">
+                            <p class="person__caption">Annie Jump Cannon</p>
+                        </div>
+                        <div class="person person_name_mitchell">
+                            <img src="./images/person_mitchell.png" alt=" Maria Mitchell picture" class="person__image person__image_size_s ">
+                            <p class="person__caption"> Maria Mitchell</p>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="membership" id="become-a-member">
+                    <h2 class="membership__title">Becoming a library member is easy!</h2>
+                    <ul class="membership__steps">
+                        <li class="step">
+                            <div class="step__title">
+                                Step 1
+                                <span class="step__icon"></span>
+                                <img src="./images/icon_step_forward.svg" alt="icon forward" class="" />
+                            </div>
+                            <p class="step__description">
+                                Fill out the membership form online or in person.
                             </p>
-                        </section>
-                    </section>
-                    <p class="events__description">
-                        At this event, which celebrates the library's namesake, our guest lecturer will take us on a journey exploring some of the most prominent female researchers in the world of space science. It's easy to buy into the misconception that this field was mostly
-                        dominated by men, but our lecture aims to change that notion and prove that this hasn't been the case since at least the 18th century.
-                    </p>
-                    <a href="#events" class="events__more">More events &rarr;</a>
+                        </li>
+                        <li class="step">
+                            <div class="step__title">
+                                Step 2
+                                <span class="step__icon"></span>
+                                <img src="./images/icon_step_forward.svg" alt="icon forward" class="" />
+                            </div>
+                            <p class="step__description">
+                                Come pick up your library card at the front desk.
+                            </p>
+                        </li>
+                        <li class="step">
+                            <div class="step__title">
+                                Step 3
+                                <span class="step__icon"></span>
+                                <img src="./images/icon_step_forward.svg" alt="icon forward" class="" />
+                            </div>
+                            <p class="step__description">Sign the back of the card.</p>
+                        </li>
+                        <li class="step">
+                            <div class="step__title">
+                                Step 4
+                                <span class="step__icon step__icon_end"></span>
+                                <img src="./images/icon_step_finish.svg" alt="icon finish" class="" />
+                            </div>
+                            <p class="step__description">
+                                Enjoy all the awesome benefits of membership!
+                            </p>
+                        </li>
+                    </ul>
                 </section>
-                <div class="events__cover">
-                    <img src="./images/cafe.png" alt="cafe image" class="events__image">
-
-                    <div class="person person_name_feynman">
-                        <p class="person__caption">Joan Feynman</p>
-                        <img src="./images/person_feynman.png" alt="joan Feynman picture" class="person__image person__image_size_l ">
-                    </div>
-                    <div class="person person_name_burbidge">
-                        <p class="person__caption">Margaret Burbidge</p>
-                        <img src="./images/person_burbidge.png" alt="Margaret Burbidge picture" class="person__image person__image_size_m ">
-                    </div>
-                    <div class="person person_name_tarter">
-                        <p class="person__caption">Jill Tarter</p>
-                        <img src="./images/person_tarter.png" alt="Jill Tarter picture" class="person__image person__image_size_m ">
-
-                    </div>
-                    <div class="person person_name_cannon">
-                        <img src="./images/person_cannon.png" alt="Annie Jump Cannon" class="person__image person__image_size_m ">
-                        <p class="person__caption">Annie Jump Cannon</p>
-                    </div>
-                    <div class="person person_name_mitchell">
-                        <img src="./images/person_mitchell.png" alt=" Maria Mitchell picture" class="person__image person__image_size_s ">
-                        <p class="person__caption"> Maria Mitchell</p>
-                    </div>
-                </div>
-            </section>
-
-            <section class="membership" id="become-a-member">
-                <h2 class="membership__title">Becoming a library member is easy!</h2>
-                <ul class="membership__steps">
-                    <li class="step">
-                        <section class="step__title">
-                            Step 1
-                            <span class="step__icon"></span>
-                            <img src="./images/icon_step_forward.svg" alt="icon forward" class="" />
-                        </section>
-                        <p class="step__description">
-                            Fill out the membership form online or in person.
+                <section class="about" id="about">
+                    <h2 class="about__title">About the library</h2>
+                    <div class="about__content">
+                        <p class="about__paragraph">
+                            Libraries are essential establishments in practically every city, and Practicum's library is no exception. It first opened its doors way back in 2018, right as our humble town began bidding welcome to its very first citizens!
                         </p>
-                    </li>
-                    <li class="step">
-                        <section class="step__title">
-                            Step 2
-                            <span class="step__icon"></span>
-                            <img src="./images/icon_step_forward.svg" alt="icon forward" class="" />
-                        </section>
-                        <p class="step__description">
-                            Come pick up your library card at the front desk.
+                        <p class="about__paragraph">
+                            Since its initial opening, the library has seen nearly 342 visitors each month. That's almost 50% of our population! So far, most citizens have enjoyed reading books and making use of our ample online resources.
                         </p>
-                    </li>
-                    <li class="step">
-                        <section class="step__title">
-                            Step 3
-                            <span class="step__icon"></span>
-                            <img src="./images/icon_step_forward.svg" alt="icon forward" class="" />
-                        </section>
-                        <p class="step__description">Sign the back of the card.</p>
-                    </li>
-                    <li class="step">
-                        <section class="step__title">
-                            Step 4
-                            <span class="step__icon step__icon_end"></span>
-                            <img src="./images/icon_step_finish.svg" alt="icon finish" class="" />
-                        </section>
-                        <p class="step__description">
-                            Enjoy all the awesome benefits of membership!
+                        <p class="about__paragraph">
+                            The library gets its name from Joan Feynman, an American astrophysicist and the first woman to be elected as an officer of the American Geophysical Union.
                         </p>
-                    </li>
-                </ul>
-            </section>
-            <section class="about" id="about">
-                <h2 class="about__title">About the library</h2>
-                <section class="about__content">
-                    <p class="about__paragraph">
-                        Libraries are essential establishments in practically every city, and Practicum's library is no exception. It first opened its doors way back in 2018, right as our humble town began bidding welcome to its very first citizens!
-                    </p>
-                    <p class="about__paragraph">
-                        Since its initial opening, the library has seen nearly 342 visitors each month. That's almost 50% of our population! So far, most citizens have enjoyed reading books and making use of our ample online resources.
-                    </p>
-                    <p class="about__paragraph">
-                        The library gets its name from Joan Feynman, an American astrophysicist and the first woman to be elected as an officer of the American Geophysical Union.
-                    </p>
+                    </div>
+                    <div class="about__circle"></div>
                 </section>
-                <div class="about__circle"></div>
             </section>
-        </section>
-        <div class="footer" id="footer">
-            <div class="footer__columns">
-                <img src="./images/logo_white.png" alt="logo" class="footer__logo">
-            </div>
-            <div class="footer__column_hours">
-                <h4 class="footer__column-heading">Hours</h4>
-                <ul class="footer__list">
-                    <li class="footer__list-item">Weekdays: 9am - 8pm</li>
-                    <li class="footer__list-item">Weekends: 10am - 6pm </li>
-                </ul>
-            </div>
-            <div>
-                <h4>Social media</h4>
-                <div class="footer__social-icon-1 footer__column-link">
-                    <P>Facebook</P>
+            <div class="footer" id="footer">
+                <div class="footer__columns">
+                    <img src="./images/logo_white.png" alt="logo" class="footer__logo">
                 </div>
-                <div class="footer__social-icon-2 footer__column-link">
-                    <P>Instagram</P>
+                <div class="footer__column_hours">
+                    <h4 class="footer__column-heading">Hours</h4>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">Weekdays: 9am - 8pm</li>
+                        <li class="footer__list-item">Weekends: 10am - 6pm </li>
+                    </ul>
                 </div>
-            </div>
-            <div class="footer__copyrights">
-                <p>© 2022 Christopher Abreu</p>
+                <div>
+                    <h4>Social media</h4>
+                    <div class="footer__social-icon-1 footer__column-link">
+                        <P>Facebook</P>
+                    </div>
+                    <div class="footer__social-icon-2 footer__column-link">
+                        <P>Instagram</P>
+                    </div>
+                </div>
+                <div class="footer__copyrights">
+                    <p>© 2022 Christopher Abreu</p>
+
+                </div>
 
             </div>
+        </div>
 
-        </div>
-        </section>
-        </section>
-        </div>
+    </div>
 </body>
 
 </html>

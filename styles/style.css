@@ -97,7 +97,6 @@
 
 .staff {
     padding-top: 100px;
-    padding-bottom: 140px;
     background-color: #f2f2f2;
 }
 
@@ -169,6 +168,7 @@
     display: flex;
     align-items: start;
     box-sizing: border-box;
+    background-color: #fff;
 }
 
 .events__content {
@@ -386,7 +386,7 @@
     display: flex;
     position: absolute;
     left: -150px;
-    top: -190px
+    top: -190px;
 }
 
 .footer {
