@@ -32,9 +32,11 @@
 
 .nav__links {
     display: flex;
-    margin-top: 8px;
+    margin: 8px 0 0 0;
     align-items: center;
     column-gap: 20px;
+    padding: 0;
+    list-style-type: none;
 }
 
 .nav__link {
@@ -63,7 +65,7 @@
 }
 
 .header__image {
-    z-index: 1;
+    z-index: -1;
     max-width: 636px;
     position: absolute;
     top: 135px;
@@ -418,9 +420,7 @@
     margin-right: 100px;
 }
 
-.footer__column_social {
-    margin-left: 100px;
-}
+.footer__column_social {}
 
 .footer__logo {
     width: 153px;
