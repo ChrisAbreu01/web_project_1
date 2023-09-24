@@ -1,6 +1,6 @@
 # Practicum Library
 
-Basic landing page for created with HTML and CSS. 
+Basic landing page created with HTML and CSS. 
 
 ## Project Live  [Here](https://chrisabreu01.github.io/web_project_1/)
 
